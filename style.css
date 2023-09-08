@@ -39,20 +39,6 @@ nav {
 
  
   
-  .name{
-   margin: 5% auto;
-  }
-  
-  .about-me {
-    margin-top: 10%;
-    margin-right: var(--spacing-3);
-  }
-
-  .projects {
-    margin-top: 10%;
-    padding: 5px;
-  }
-  
   .grid-container {
     display: inline-grid;
   }
