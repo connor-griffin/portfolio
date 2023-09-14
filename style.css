@@ -45,6 +45,7 @@ nav {
  
   .grid-item {
     padding: 10px;
+    text-align: center;
   }
 
   .grid-container {
@@ -53,7 +54,13 @@ nav {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  .project-description {
+    height: 100px;
+   
+  }
+
   img {
     width: 100%;
     object-fit: contain;
+    max-height: 425px;
   }
