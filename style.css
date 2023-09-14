@@ -11,6 +11,7 @@ body {
     background: url("https://images.unsplash.com/photo-1615926978230-574692b7be6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80");
     background-size: cover;
     opacity: 0.9;
+    padding: 50px 100px;
 }
 
 nav {
@@ -37,8 +38,21 @@ nav {
     color: #ffffff;
   }
 
+  .about-me {
+    text-align: center;
+    margin: 50px;
+  }
  
-  
+  .grid-item {
+    width: 33%;
+  }
+
   .grid-container {
-    display: inline-grid;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 2fr;
+  }
+
+  img {
+    object-fit: contain;
   }
